@@ -1,4 +1,4 @@
-useState  
+**useState**
 
 accepts initial state value
 
@@ -12,7 +12,7 @@ spread values so it can merge when using with arrays and objects
 
 ----------
 
-useEffect
+**useEffect**
 
 for applying side effects to application
 
