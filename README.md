@@ -1,32 +1,8 @@
-# React with Bun runtime
+useState  
 
-This is a React project bootstrapped with [bun](https://bun.sh/).
+accepts initial state value
+returns 2 things - getter and setter
+any time if using prev state to set new state make sure to use the function version to set the state
+settting state runs every time the component rerenders so use the function call to set initial state - useState(() => 3)
+spread values so it can merge when using with arrays and objects
 
-## Getting Started
-
-### Cloning the repo
-
-```sh
-bun create react ./react-bun-app
-```
-
-### Development
-
-First, run the development server.
-
-```
-bun dev
-```
-
-Open http://localhost:3000 with your browser to see the result.
-
-You can start editing the page by modifying src/App.jsx. The page auto-updates as you edit the file.
-
-## Learn More
-
-To learn more about React.js, take a look at the following resources:
-
-- [React.js Documentation](https://reactjs.org/docs/getting-started.html) - learn about React.js features.
-- [Learn React.js](https://reactjs.org/tutorial/tutorial.html) - an interactive React.js tutorial.
-
-You can check out the [React.js GitHub repository](https://github.com/facebook/react) - your feedback and contributions are welcome!
