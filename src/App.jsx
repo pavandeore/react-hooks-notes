@@ -1,4 +1,5 @@
 import "./App.css";
+import Componentnew from "./components/Componentnew";
 import NewCompo from "./components/NewCompo";
 import Yetnew from "./components/Yetnew";
 import logo from "./logo.svg";
@@ -25,6 +26,7 @@ function App() {
 
         <NewCompo />
         <Yetnew />
+        <Componentnew />
       </article>
     </div>
   );

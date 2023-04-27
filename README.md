@@ -34,3 +34,16 @@ don't use it everywhere it can cause performance overhead and memory overhead
 to use wrap the return function call in useMemo and pass depency argument
 
 use it as refrence equiality only wants to update component if the depency is changed
+
+
+
+----------
+
+**useRef**
+
+when using ref it does not cause rerender on state update
+
+Persist data between rerenders
+
+can be useful to store previous value of state
+
