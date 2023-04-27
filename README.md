@@ -21,3 +21,16 @@ add dependency list in array so code will run only if it changes dependency
 [] is onMount
 
 return function from useEffect is clean up - remove event listeners here...
+
+
+----------
+
+**useMemo**
+
+to cache value data in memory
+
+don't use it everywhere it can cause performance overhead and memory overhead
+
+to use wrap the return function call in useMemo and pass depency argument
+
+use it as refrence equiality only wants to update component if the depency is changed

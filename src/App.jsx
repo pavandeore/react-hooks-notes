@@ -1,5 +1,6 @@
 import "./App.css";
 import NewCompo from "./components/NewCompo";
+import Yetnew from "./components/Yetnew";
 import logo from "./logo.svg";
 import { useState } from "react";
 
@@ -23,6 +24,7 @@ function App() {
         <button onClick={decrement}>-</button>
 
         <NewCompo />
+        <Yetnew />
       </article>
     </div>
   );
