@@ -47,3 +47,20 @@ Persist data between rerenders
 
 can be useful to store previous value of state
 
+
+
+-----
+
+**useContext**
+
+whole thing is required to avoid prop-drilling and direct state share between levels of components
+
+wrap parent component with provider provide a value
+
+create context at same level and export it 
+
+in class based contextname.consumer
+
+in hooks based pass the context name in useContext and use that variable
+
+
